@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #ff4a11;
+}
+
+*, *: : before, *: : after {
+  box-sizing: border-box;
+}
+
+/* Cascading: 
+- Specificity (element  or class selector)
+- order (below overrules)
+- inheritance (e.g. color or font-family)
+*/
+
+/* 
+NEVER* use inline styles
+NEVER use !important
+NEVER use id selectors
+
+ONLY use element selectors for reset, basic styling
+
+ALWAYS* use single class selectors without combinators
+
+*/
+
+body {
+  font-family: system-ui;
+  color: #e4e8f0;
+  background-color: #282828;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

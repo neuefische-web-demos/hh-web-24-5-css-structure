@@ -1,0 +1,42 @@
+.card {
+  background-color: inherit;
+  color: inherit;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid 2px var(--color-primary);
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card--bright {
+  background-color: white;
+  color: black;
+}
+
+.card__highlight {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+.card__definition {
+  max-width: 300px;
+  border: dashed 2px var(--color-primary);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card__tag {
+  background-color: #9ca3af;
+  color: #282828;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card__tag--highlight {
+  background-color: var(--color-primary);
+}

@@ -1,0 +1,13 @@
+.button {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+}
+
+.button--danger {
+  background-color: red;
+}
